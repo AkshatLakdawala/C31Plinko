@@ -19,7 +19,7 @@ class Particles {
         var angle = this.body.angle;
 
         push();
-        tanslate(pos.x,pos.y);
+        translate(pos.x,pos.y);
         rotate(angle);
         noStroke(); 
         
